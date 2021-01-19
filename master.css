@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+header{
+  background: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+
+.logo{
+  height: 100%;
+  vertical-align: middle;
+}
+.testo{
+  font-size: 40px;
+  font-family: Verdana;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: white;
+  padding: 50px;
+}
+
+.bottone {
+  color: #fff;
+  background-color: rgb(69, 171, 234);
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 8px;
+}
+
+.bottone-dis {
+  border: 1px solid lightgrey;
+  background-color: white;
+  color: lightgrey;
+  border-radius: 8px;
+  padding: 7px 15px;
+  text-decoration: none;
+}
+
+.lista {
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.macro {
+  margin-bottom: 20px;
+}
+
+.macro h2:before {
+  content: "\25bc";
+  color: gray;
+  font-size: 15px;
+}
+
+.macro ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.micro .sottolistacheck:before {
+  content: "\2713";
+  border-radius: 50%;
+  border: 2px solid;
+  color: green;
+  padding: 3px;
+  font-size: 10px;
+}
+
+.micro .sottolistacross:before {
+  content: "\2573";
+  border-radius: 50%;
+  border: 2px solid;
+  color: red;
+  padding: 3px;
+  font-size: 10px;
+}
+
+.label {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 15px;
+  width: 90px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#editorial {
+  background-color: rgb(69, 171, 234);
+}
+
+#goals {
+  background-color: #F070FF;
+}
+
+#recruiting {
+  background-color: rgb(102, 205, 170);
+}
+
+#mobile {
+  background-color: orange;
+}
+
+#website {
+  background-color: rgb(221, 160, 221);
+}
+
+#sales {
+  background-color: rgb(152, 251, 152);
+}
